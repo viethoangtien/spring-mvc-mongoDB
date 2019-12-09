@@ -46,4 +46,11 @@ public class AbstractDAO<T> implements IGenericDAO<T> {
         getCollection(clazz, collectionName).find().forEach(executeBlock);
         return lists;
     }
+
+    @Override
+    public List<T> save(List<T> lists, Class<T> clazz, String collectionName) {
+        getCollection(clazz, collectionName).insertMany(lists);
+        return lists;
+    }
+
 }

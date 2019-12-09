@@ -3,17 +3,17 @@ package com.soict.hoangviet.model;
 import org.bson.types.ObjectId;
 
 public class NetworkConnectionModel {
-    private String _id;
+    private ObjectId _id;
     private String proto;
     private String localAddress;
     private String foreignAddress;
     private String state;
 
-    public String getObjectId() {
+    public ObjectId getObjectId() {
         return _id;
     }
 
-    public void setObjectId(String _id) {
+    public void setObjectId(ObjectId _id) {
         this._id = _id;
     }
 

@@ -9,30 +9,36 @@
 </head>
 
 <body>
-
-<!-- Page Content -->
-<div id="formContent">
-    <!-- Icon -->
-    <div class="fadeIn first">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTDwicjrC_5Nzf889J7J-SLLg3DH1w4pcyuLrxS4Uf5qWfrCiGU" id="icon" alt="User Icon" />
+<div class="row">
+    <div class="col-md-4 col-md-offset-4">
+        <div class="login-panel panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">Đăng nhập</h3>
+            </div>
+            <div class="panel-body">
+                <form role="form" action="<c:url value="/j_spring_security_check"/> " method="post">
+                    <fieldset>
+                        <div class="form-group">
+                            <input class="form-control" placeholder="Tên tài khoản" name="j_username" type="text"
+                                   autofocus>
+                        </div>
+                        <div class="form-group">
+                            <input class="form-control" placeholder="Mật khẩu" name="j_password" type="password"
+                                   value="">
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input name="remember" type="checkbox" value="Remember Me">Nhớ tài khoản
+                            </label>
+                        </div>
+                        <!-- Change this to a button or input when using this as a form -->
+                        <input type="submit" class="btn btn-lg btn-success btn-block" value="Đăng nhập"></input>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
     </div>
-
-    <!-- Login Form -->
-    <form action="j_spring_security_check" method="POST">
-        <input type="text" id="login" class="fadeIn second" name="j_username" placeholder="Tên đăng nhập">
-        <input type="password" id="password" class="fadeIn third" name="j_password" placeholder="Mật khẩu">
-        <input type="submit" class="fadeIn fourth" value="Đăng nhập">
-    </form>
-
-    <!-- Remind Passowrd -->
-    <div id="formFooter">
-        <a class="underlineHover" href="#">Quên mật khẩu?</a>
-    </div>
-
 </div>
-</div>
-<!-- /.container -->
-
 </body>
 
 </html>

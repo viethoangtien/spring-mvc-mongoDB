@@ -18,6 +18,6 @@ public class ApiAdminNetworkConnection {
     @PostMapping("api/admin-network-connection")
     public List<NetworkConnectionModel> createNetworkConnection(@RequestBody List<NetworkConnectionModel> lists) {
         return networkConnectionService.save(lists);
+//        return lists;
     }
-
 }

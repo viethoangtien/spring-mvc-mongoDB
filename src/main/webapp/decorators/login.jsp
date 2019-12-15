@@ -1,22 +1,39 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@ include file="/common/taglib.jsp" %>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title><dec:title default="Đăng nhập" /></title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-    <!-- css -->
-    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <link href="<c:url value='/template/login/css/style.css' />"
-          rel="stylesheet" type="text/css" media="all" />
+    <title>Đăng nhập</title>
 
+    <!-- Bootstrap Core CSS -->
+    <link href="<c:url value='/template/admin/css/bootstrap.min.css' />" rel="stylesheet"/>
+    <!-- MetisMenu CSS -->
+    <link href="<c:url value='/template/admin/css/menu.min.css' />" rel="stylesheet"/>
+    <!-- Custom CSS -->
+    <link href="<c:url value='/template/admin/css/start.css' />" rel="stylesheet"/>
+    <!-- Custom Fonts -->
+    <link href="<c:url value='/template/admin/css/font-awesome.min.css' />" rel="stylesheet" type="text/css"/>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <![endif]-->
 </head>
-<body class="wrapper fadeInDown">
-<div class="content">
+<body>
+
+<div class="container">
     <dec:body/>
 </div>
+
+<script src="<c:url value='/template/admin/js/jquery.min.js' />"></script>
+<script src="<c:url value='/template/admin/js/bootstrap.min.js' />"></script>
+<script src="<c:url value='/template/admin/js/menu.min.js' />"></script>
+<script src="<c:url value='/template/admin/js/start.js' />"></script>
 
 </body>
 </html>

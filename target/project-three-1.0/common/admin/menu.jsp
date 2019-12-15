@@ -29,10 +29,11 @@
         <!-- sidebar menu: : style can be found in sidebar.less -->
         <ul class="sidebar-menu" data-widget="tree">
             <li class="header">Mục chính</li>
-            <li class="active treeview">
-                <a href="#">
+            <li>
+                <a href="<c:url value="/admin-home"/> ">
                     <i class="fa fa-dashboard"></i> <span>Dashboard</span>
                     <span class="pull-right-container">
+              <small class="label pull-right bg-green">main</small>
             </span>
                 </a>
             </li>

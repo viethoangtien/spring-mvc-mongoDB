@@ -1,6 +1,7 @@
-package com.soict.hoangviet.api.admin;
+package com.soict.hoangviet.network.api.admin;
 
 import com.soict.hoangviet.model.NetworkConnectionModel;
+import com.soict.hoangviet.network.response.BaseResponse;
 import com.soict.hoangviet.service.NetworkConnectionService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -16,7 +17,7 @@ public class ApiAdminNetworkConnection {
     private NetworkConnectionService networkConnectionService;
 
     @PostMapping("api/admin-network-connection")
-    public List<NetworkConnectionModel> createNetworkConnection(@RequestBody List<NetworkConnectionModel> lists) {
+    public BaseResponse createNetworkConnection(@RequestBody List<NetworkConnectionModel> lists) {
         return networkConnectionService.save(lists);
 //        return lists;
     }

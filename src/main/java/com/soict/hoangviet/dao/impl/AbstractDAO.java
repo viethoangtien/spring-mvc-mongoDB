@@ -5,6 +5,7 @@ import com.mongodb.MongoClient;
 import com.mongodb.MongoClientOptions;
 import com.mongodb.client.MongoCollection;
 import com.soict.hoangviet.dao.IGenericDAO;
+import com.soict.hoangviet.network.response.BaseResponse;
 import org.bson.codecs.configuration.CodecRegistry;
 import org.bson.codecs.pojo.PojoCodecProvider;
 import org.springframework.stereotype.Component;
@@ -48,9 +49,12 @@ public class AbstractDAO<T> implements IGenericDAO<T> {
     }
 
     @Override
-    public List<T> save(List<T> lists, Class<T> clazz, String collectionName) {
-        getCollection(clazz, collectionName).insertMany(lists);
-        return lists;
+    public BaseResponse save(List<T> lists, Class<T> clazz, String collectionName) {
+        try{
+            getCollection(clazz, collectionName).insertMany(lists);
+            return new BaseResponse(200,"Thêm dữ liệu mới thành công");
+        }catch (Exception e){
+            return new BaseResponse(400,"Thêm dữ liệu mới thất bại");
+        }
     }
-
 }

@@ -2,12 +2,32 @@ package com.soict.hoangviet.model;
 
 import org.bson.types.ObjectId;
 
+import java.util.Date;
+
 public class NetworkConnectionModel {
     private ObjectId _id;
     private String proto;
     private String localAddress;
     private String foreignAddress;
     private String state;
+    private String date;
+    private String Computer;
+
+    public String getDate() {
+        return date;
+    }
+
+    public void setDate(String date) {
+        this.date = date;
+    }
+
+    public String getComputer() {
+        return Computer;
+    }
+
+    public void setComputer(String computer) {
+        Computer = computer;
+    }
 
     public ObjectId getObjectId() {
         return _id;

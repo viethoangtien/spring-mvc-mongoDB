@@ -37,7 +37,6 @@
                                             <span class="lbl"></span>
                                         </label>
                                     </th>
-                                    <th>ObjectId</th>
                                     <th>foreignAddress</th>
                                     <th class="hidden-480">localAddress</th>
 
@@ -46,7 +45,8 @@
 
                                     </th>
                                     <th class="hidden-480">State</th>
-
+                                    <th class="hidden-480">Time</th>
+                                    <th class="hidden-480">Computer</th>
                                     <th></th>
                                 </tr>
                                 </thead>
@@ -60,8 +60,6 @@
                                                 <span class="lbl"></span>
                                             </label>
                                         </td>
-
-                                        <td>""</td>
                                         <td>${item.foreignAddress}</td>
                                         <td class="hidden-480">${item.localAddress}</td>
                                         <td>${item.proto}</td>
@@ -69,7 +67,8 @@
                                         <td class="hidden-480">
                                             <span class="label label-sm label-warning">${item.state}</span>
                                         </td>
-
+                                        <td>${item.date}</td>
+                                        <td>${item.computer}</td>
                                         <td>
                                             <div class="hidden-sm hidden-xs action-buttons">
                                                 <a class="blue" href="#">

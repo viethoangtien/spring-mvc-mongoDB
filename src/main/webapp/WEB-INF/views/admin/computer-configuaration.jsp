@@ -15,13 +15,13 @@
             <div class="col-xs-12">
                 <div class="row">
                     <div class="col-xs-12">
-                        <h3 class="header smaller lighter blue">Network Connection</h3>
+                        <h3 class="header smaller lighter blue">Browser History</h3>
 
                         <div class="clearfix">
                             <div class="pull-right tableTools-container"></div>
                         </div>
                         <div class="table-header">
-                            Network Connection
+                            Browser History
                         </div>
 
                         <!-- div.table-responsive -->
@@ -37,13 +37,15 @@
                                             <span class="lbl"></span>
                                         </label>
                                     </th>
-                                    <th>foreignAddress</th>
-                                    <th class="hidden-480">localAddress</th>
+                                    <th>recordName</th>
+<%--                                    <th class="hidden-480">recordType</th>--%>
 
-                                    <th>Proto
+                                    <th>timeToLive
                                         <%--                                        <i class="ace-icon fa fa-clock-o bigger-110 hidden-480"></i>--%>
                                     </th>
-                                    <th class="hidden-480">State</th>
+                                    <th class="hidden-480">dataLength</th>
+<%--                                    <th class="hidden-480">section</th>--%>
+                                    <th class="hidden-480">hostRecord</th>
                                     <th class="hidden-480">Time</th>
                                     <th class="hidden-480">Computer</th>
                                 </tr>
@@ -58,13 +60,16 @@
                                                 <span class="lbl"></span>
                                             </label>
                                         </td>
-                                        <td class="hidden-480">${item.foreignAddress}</td>
-                                        <td class="hidden-480">${item.localAddress}</td>
-                                        <td class="hidden-480">${item.proto}</td>
+                                        <td width="50px">${item.recordName}</td>
+<%--                                        <td width="50px">${item.recordType}</td>--%>
+                                        <td class="hidden-480">${item.timeToLive}</td>
 
-                                        <td class="hidden-480">
-                                            <span class="label label-sm label-warning">${item.state}</span>
-                                        </td>
+<%--                                        <td class="hidden-480">--%>
+<%--                                            <span class="label label-sm label-warning">${item.dataLength}</span>--%>
+<%--                                        </td>--%>
+<%--                                        <td class="hidden-480">${item.section}</td>--%>
+                                        <td class="hidden-480">${item.dataLength}</td>
+                                        <td class="hidden-480">${item.hostRecord}</td>
                                         <td class="hidden-480">${item.date}</td>
                                         <td class="hidden-480">${item.computer}</td>
 <%--                                        <td>--%>

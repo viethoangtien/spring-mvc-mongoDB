@@ -266,7 +266,14 @@
 <%--ADMIN ACE--%>
 <%--<script type="text/javascript" src="<c:url value='/template/admin/js/jquery-2.1.4.min.js' />"></script>--%>
 <%--<script type="text/javascript" src="<c:url value='/template/admin/js/bootstrap.min.js' />"></script>--%>
-
+<script type="text/javascript"
+        src="<c:url value='/template/adminlte/bower-components/jquery/dist/jquery.min.js' />"></script>
+<script type="text/javascript"
+        src="<c:url value='/template/adminlte/bower-components/morris.js/morris.min.js' />"></script>
+<script type="text/javascript" src="<c:url value='/template/admin/js/jquery.dataTables.min.js' />"></script>
+<script type="text/javascript" src="<c:url value='/template/admin/js/jquery.dataTables.bootstrap.min.js' />"></script>
+<script type="text/javascript" src="<c:url value='/template/admin/js/dataTables.buttons.min.js' />"></script>
+<script type="text/javascript" src="<c:url value='/template/admin/js/dataTables.select.min.js' />"></script>
 
 
 
@@ -274,8 +281,6 @@
 
 <%--ADMIN LTE--%>
 <!-- jQuery 3 -->
-<script type="text/javascript"
-        src="<c:url value='/template/adminlte/bower-components/jquery/dist/jquery.min.js' />"></script>
 <!-- jQuery UI 1.11.4 -->
 <script type="text/javascript"
         src="<c:url value='/template/adminlte/bower-components/jquery-ui/jquery-ui.min.js' />"></script>
@@ -289,8 +294,6 @@
 <!-- Morris.js charts -->
 <script type="text/javascript"
         src="<c:url value='/template/adminlte/bower-components/raphael/raphael.min.js' />"></script>
-<script type="text/javascript"
-        src="<c:url value='/template/adminlte/bower-components/morris.js/morris.min.js' />"></script>
 <!-- Sparkline -->
 <script type="text/javascript"
         src="<c:url value='/template/adminlte/bower-components/jquery-sparkline/dist/jquery.sparkline.min.js' />"></script>
@@ -325,7 +328,12 @@
 <script type="text/javascript" src="<c:url value='/template/adminlte/dist/js/pages/dashboard.js' />"></script>
 <!-- AdminLTE for demo purposes -->
 <script type="text/javascript" src="<c:url value='/template/adminlte/dist/js/demo.js' />"></script>
-
+<script type="text/javascript" src="<c:url value='/template/admin/js/ace.min.js' />"></script>
+<script type="text/javascript" src="<c:url value='/template/admin/js/ace-elements.min.js' />"></script>
+<script type="text/javascript" src="<c:url value='/template/admin/js/buttons.flash.min.js' />"></script>
+<script type="text/javascript" src="<c:url value='/template/admin/js/buttons.html5.min.js' />"></script>
+<script type="text/javascript" src="<c:url value='/template/admin/js/buttons.print.min.js' />"></script>
+<script type="text/javascript" src="<c:url value='/template/admin/js/buttons.colVis.min.js' />"></script>
 <script type="text/javascript">
     jQuery(function ($) {
         //initiate dataTables plugin
@@ -550,15 +558,5 @@
 <script type="text/javascript">
     if ('ontouchstart' in document.documentElement) document.write("<script src='/template/admin/js/jquery.mobile.custom.min.js'>" + "<" + "/script>");
 </script>
-<script type="text/javascript" src="<c:url value='/template/admin/js/jquery.dataTables.min.js' />"></script>
-<script type="text/javascript" src="<c:url value='/template/admin/js/jquery.dataTables.bootstrap.min.js' />"></script>
-<script type="text/javascript" src="<c:url value='/template/admin/js/dataTables.buttons.min.js' />"></script>
-<script type="text/javascript" src="<c:url value='/template/admin/js/dataTables.select.min.js' />"></script>
-<script type="text/javascript" src="<c:url value='/template/admin/js/ace.min.js' />"></script>
-<script type="text/javascript" src="<c:url value='/template/admin/js/ace-elements.min.js' />"></script>
-<script type="text/javascript" src="<c:url value='/template/admin/js/buttons.flash.min.js' />"></script>
-<script type="text/javascript" src="<c:url value='/template/admin/js/buttons.html5.min.js' />"></script>
-<script type="text/javascript" src="<c:url value='/template/admin/js/buttons.print.min.js' />"></script>
-<script type="text/javascript" src="<c:url value='/template/admin/js/buttons.colVis.min.js' />"></script>
 </body>
 </html>

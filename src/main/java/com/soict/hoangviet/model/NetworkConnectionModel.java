@@ -2,10 +2,7 @@ package com.soict.hoangviet.model;
 
 import org.bson.types.ObjectId;
 
-import java.util.Date;
-
 public class NetworkConnectionModel {
-    private ObjectId _id;
     private String proto;
     private String localAddress;
     private String foreignAddress;
@@ -27,14 +24,6 @@ public class NetworkConnectionModel {
 
     public void setComputer(String computer) {
         Computer = computer;
-    }
-
-    public ObjectId getObjectId() {
-        return _id;
-    }
-
-    public void setObjectId(ObjectId _id) {
-        this._id = _id;
     }
 
     public String getProto() {

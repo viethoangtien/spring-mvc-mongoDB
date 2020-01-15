@@ -17,11 +17,11 @@ public class NetworkConnectionServiceImpl implements NetworkConnectionService {
 
     @Override
     public List<NetworkConnectionModel> findAll() {
-        return networkConnectionDAO.findAll(NetworkConnectionModel.class, "networkconnection");
+        return networkConnectionDAO.findAll(NetworkConnectionModel.class, "volatile-networkconnection");
     }
 
     @Override
     public BaseResponse save(List<NetworkConnectionModel> lists) {
-        return networkConnectionDAO.save(lists, NetworkConnectionModel.class, "networkconnection");
+        return networkConnectionDAO.save(lists, NetworkConnectionModel.class, "volatile-networkconnection");
     }
 }

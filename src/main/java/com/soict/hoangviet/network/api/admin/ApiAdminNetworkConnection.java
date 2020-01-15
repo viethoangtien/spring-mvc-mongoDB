@@ -19,6 +19,5 @@ public class ApiAdminNetworkConnection {
     @PostMapping("api/admin-network-connection")
     public BaseResponse createNetworkConnection(@RequestBody List<NetworkConnectionModel> lists) {
         return networkConnectionService.save(lists);
-//        return lists;
     }
 }

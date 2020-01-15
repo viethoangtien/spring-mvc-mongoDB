@@ -22,4 +22,9 @@ public class FileSystemServiceImpl implements FileSystemService {
     public BaseResponse save(List<FileSystem> lists) {
         return fileSystemDAO.save(lists, FileSystem.class, "nonVolatile-fileSystem");
     }
+
+    @Override
+    public int countAll() {
+        return findAll().size();
+    }
 }

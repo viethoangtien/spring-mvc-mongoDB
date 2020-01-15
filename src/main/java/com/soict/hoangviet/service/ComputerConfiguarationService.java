@@ -9,4 +9,6 @@ public interface ComputerConfiguarationService {
     List<ComputerConfiguaration> findAll();
 
     BaseResponse save(List<ComputerConfiguaration> lists);
+
+    int countAll();
 }

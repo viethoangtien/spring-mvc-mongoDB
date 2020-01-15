@@ -46,11 +46,11 @@
             </span>
                 </a>
                 <ul class="treeview-menu">
-                    <li><a href="pages/UI/general.html"><i class="fa fa-circle-o"></i> Computer Information</a></li>
-                    <li><a href="pages/UI/icons.html"><i class="fa fa-circle-o"></i> File Systems</a></li>
-                    <li><a href="pages/UI/buttons.html"><i class="fa fa-circle-o"></i> System Event Log</a></li>
-                    <li><a href="pages/UI/sliders.html"><i class="fa fa-circle-o"></i> Browser History</a></li>
-                    <li><a href="pages/UI/timeline.html"><i class="fa fa-circle-o"></i> File Recently</a></li>
+                    <li><a href="<c:url value="/admin-computer-configuaration"/> "><i class="fa fa-circle-o"></i> Computer Information</a></li>
+                    <li><a href="<c:url value="/admin-file-system"/> "><i class="fa fa-circle-o"></i> File Systems</a></li>
+                    <li><a href="<c:url value="/admin-system-event-log"/> "><i class="fa fa-circle-o"></i> System Event Log</a></li>
+                    <li><a href="<c:url value="/admin-browser-history"/> "><i class="fa fa-circle-o"></i> Browser History</a></li>
+                    <li><a href="<c:url value="/admin-recent-file"/> "><i class="fa fa-circle-o"></i> File Recently</a></li>
                 </ul>
             </li>
             <li class="treeview">

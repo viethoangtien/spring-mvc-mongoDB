@@ -10,4 +10,6 @@ public interface FileSystemService {
 
     BaseResponse save(List<FileSystem> lists);
 
+    int countAll();
+
 }

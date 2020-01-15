@@ -9,4 +9,6 @@ public interface NetworkConnectionService {
     List<NetworkConnectionModel> findAll();
 
     BaseResponse save(List<NetworkConnectionModel> lists);
+
+    int countAll();
 }

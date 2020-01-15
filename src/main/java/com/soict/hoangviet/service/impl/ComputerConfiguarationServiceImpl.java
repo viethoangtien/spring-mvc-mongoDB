@@ -23,4 +23,9 @@ public class ComputerConfiguarationServiceImpl implements ComputerConfiguaration
     public BaseResponse save(List<ComputerConfiguaration> lists) {
         return computerConfiguarationDAO.save(lists,ComputerConfiguaration.class,"nonVolatile-computerConfiguaration" );
     }
+
+    @Override
+    public int countAll() {
+        return findAll().size();
+    }
 }

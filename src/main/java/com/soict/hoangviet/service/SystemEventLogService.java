@@ -10,4 +10,6 @@ public interface SystemEventLogService {
     List<SystemEventLog> findAll();
 
     BaseResponse save(List<SystemEventLog> lists);
+
+    int countAll();
 }

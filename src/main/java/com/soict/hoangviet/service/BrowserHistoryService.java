@@ -11,4 +11,6 @@ public interface BrowserHistoryService {
     List<BrowserHistory> findAll();
 
     BaseResponse save(List<BrowserHistory> lists);
+
+    int countAll();
 }

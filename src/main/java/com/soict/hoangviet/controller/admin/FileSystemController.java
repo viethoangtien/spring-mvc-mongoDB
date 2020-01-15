@@ -1,7 +1,6 @@
 package com.soict.hoangviet.controller.admin;
 
 import com.soict.hoangviet.constant.SystemConstant;
-import com.soict.hoangviet.model.ComputerConfiguaration;
 import com.soict.hoangviet.model.FileSystem;
 import com.soict.hoangviet.service.FileSystemService;
 import org.springframework.beans.factory.annotation.Autowired;

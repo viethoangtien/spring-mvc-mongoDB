@@ -24,4 +24,9 @@ public class RecentFileServiceImpl implements RecentFileService {
     public BaseResponse save(List<RecentFile> lists) {
         return recentFileDAO.save(lists, RecentFile.class,"nonVolatile-recentFile");
     }
+
+    @Override
+    public int countAll() {
+        return findAll().size();
+    }
 }

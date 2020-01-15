@@ -24,4 +24,9 @@ public class NetworkConnectionServiceImpl implements NetworkConnectionService {
     public BaseResponse save(List<NetworkConnectionModel> lists) {
         return networkConnectionDAO.save(lists, NetworkConnectionModel.class, "volatile-networkconnection");
     }
+
+    @Override
+    public int countAll() {
+        return findAll().size();
+    }
 }

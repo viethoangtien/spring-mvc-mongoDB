@@ -24,4 +24,9 @@ public class BrowserHistoryServiceImpl implements BrowserHistoryService {
     public BaseResponse save(List<BrowserHistory> lists) {
         return browserHistoryDAO.save(lists,BrowserHistory.class,"nonVolatile-browserHistory");
     }
+
+    @Override
+    public int countAll() {
+        return findAll().size();
+    }
 }

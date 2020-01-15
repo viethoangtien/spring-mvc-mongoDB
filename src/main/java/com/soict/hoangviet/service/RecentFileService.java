@@ -10,4 +10,6 @@ public interface RecentFileService {
     List<RecentFile> findAll();
 
     BaseResponse save(List<RecentFile> lists);
+
+    int countAll();
 }

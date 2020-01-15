@@ -24,4 +24,9 @@ public class SystemEventLogServiceImpl implements SystemEventLogService {
     public BaseResponse save(List<SystemEventLog> lists) {
         return systemEventLogDAO.save(lists, SystemEventLog.class, "nonVolatile-systemEventLog");
     }
+
+    @Override
+    public int countAll() {
+        return findAll().size();
+    }
 }

@@ -22,13 +22,6 @@ public class FileSystem {
 	public void setComputer(String computer) {
 		this.computer = computer;
 	}
-
-	public FileSystem(String abbreviate, String fullname, String type) {
-		super();
-		this.abbreviate = abbreviate;
-		this.fullname = abbreviate;
-		this.type = type;
-	}
 	
 	public String getAbbreviate() {
 		return abbreviate;

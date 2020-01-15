@@ -37,16 +37,16 @@
                                             <span class="lbl"></span>
                                         </label>
                                     </th>
-                                    <th class="hidden-480" width="200px">registerOwner</th>
+                                    <th class="hidden-480" width="200px">Register owner</th>
 <%--                                    <th class="hidden-480">recordType</th>--%>
 
-                                    <th class="hidden-480">osName</th>
+                                    <th class="hidden-480">OS name</th>
                                         <%--                                        <i class="ace-icon fa fa-clock-o bigger-110 hidden-480"></i>--%>
-                                    <th class="hidden-480">osVersion</th>
+                                    <th class="hidden-480">OS version</th>
 <%--                                    <th class="hidden-480">section</th>--%>
                                     <th class="hidden-480">Time</th>
                                     <th class="hidden-480">Computer</th>
-                                    <th class="hidden-480">Thao tác</th>
+                                    <th class="hidden-480"></th>
                                 </tr>
                                 </thead>
 
@@ -74,14 +74,6 @@
                                             <div class="hidden-sm hidden-xs action-buttons">
                                                 <a class="blue" href="#">
                                                     <i class="ace-icon fa fa-search-plus bigger-130"></i>
-                                                </a>
-
-                                                <a class="green" href="#">
-                                                    <i class="ace-icon fa fa-pencil bigger-130"></i>
-                                                </a>
-
-                                                <a class="red" href="#">
-                                                    <i class="ace-icon fa fa-trash-o bigger-130"></i>
                                                 </a>
                                             </div>
 

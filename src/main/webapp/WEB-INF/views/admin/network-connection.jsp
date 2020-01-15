@@ -37,8 +37,8 @@
                                             <span class="lbl"></span>
                                         </label>
                                     </th>
-                                    <th>foreignAddress</th>
-                                    <th class="hidden-480">localAddress</th>
+                                    <th>Foreign address</th>
+                                    <th class="hidden-480">Local address</th>
 
                                     <th>Proto
                                         <%--                                        <i class="ace-icon fa fa-clock-o bigger-110 hidden-480"></i>--%>

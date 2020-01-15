@@ -37,8 +37,8 @@
                                             <span class="lbl"></span>
                                         </label>
                                     </th>
-                                    <th class="hidden-480">Abbreviate Name</th>
-                                    <th class="hidden-480">File Name</th>
+                                    <th class="hidden-480">Abbreviate name</th>
+                                    <th class="hidden-480">File name</th>
                                     <th class="hidden-480">Type</th>
 
 <%--                                    <th>Proto--%>
@@ -47,7 +47,7 @@
 <%--                                    <th class="hidden-480">State</th>--%>
                                     <th class="hidden-480">Time</th>
                                     <th class="hidden-480">Computer</th>
-                                    <th class="hidden-480">Thao tác</th>
+                                    <th class="hidden-480"></th>
                                 </tr>
                                 </thead>
 

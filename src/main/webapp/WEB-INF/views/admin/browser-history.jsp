@@ -37,15 +37,15 @@
                                             <span class="lbl"></span>
                                         </label>
                                     </th>
-                                    <th>recordName</th>
+                                    <th>Record name</th>
 <%--                                    <th class="hidden-480">recordType</th>--%>
 
-                                    <th>timeToLive
+                                    <th>Time to live
                                         <%--                                        <i class="ace-icon fa fa-clock-o bigger-110 hidden-480"></i>--%>
                                     </th>
-                                    <th class="hidden-480">dataLength</th>
+                                    <th class="hidden-480">Data length</th>
 <%--                                    <th class="hidden-480">section</th>--%>
-                                    <th class="hidden-480">hostRecord</th>
+                                    <th class="hidden-480">Host record</th>
                                     <th class="hidden-480">Time</th>
                                     <th class="hidden-480">Computer</th>
                                 </tr>

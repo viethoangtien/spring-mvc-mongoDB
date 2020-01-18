@@ -30,6 +30,21 @@ public class HomeController {
     @Autowired
     private SystemEventLogService systemEventLogService;
 
+    @Autowired
+    private NetworkStatusService networkStatusService;
+
+    @Autowired
+    private OpenPortService openPortService;
+
+    @Autowired
+    private RoutingTableService routingTableService;
+
+    @Autowired
+    private ProcessListService processListService;
+
+    @Autowired
+    private EstablishConnectionService establishConnectionService;
+
     @RequestMapping(value = "/admin-home", method = RequestMethod.GET)
     public ModelAndView homePage() {
         ModelAndView modelAndView = new ModelAndView("admin/home");
@@ -40,6 +55,11 @@ public class HomeController {
         map.put(SystemConstant.COMPUTER_CONFIGUARATION, computerConfiguarationService.countAll());
         map.put(SystemConstant.RECENT_FILE, recentFileService.countAll());
         map.put(SystemConstant.SYSTEM_EVENT_LOG, systemEventLogService.countAll());
+        map.put(SystemConstant.NETWORK_STATUS, networkStatusService.countAll());
+        map.put(SystemConstant.ESTABLISH_CONNECTION, establishConnectionService.countAll());
+        map.put(SystemConstant.ROUTING_TABLE, routingTableService.countAll());
+        map.put(SystemConstant.PROCESS_LIST, processListService.countAll());
+        map.put(SystemConstant.OPEN_PORT, openPortService.countAll());
         modelAndView.addObject(SystemConstant.MAP, map);
         return modelAndView;
     }

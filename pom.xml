@@ -193,7 +193,18 @@
                     <target>1.8</target>
                 </configuration>
             </plugin>
+
+            <plugin>
+                <groupId>org.apache.tomcat.maven</groupId>
+                <artifactId>tomcat7-maven-plugin</artifactId>
+                <version>2.0</version>
+                <configuration>
+                    <url>http://119.17.214.74:22</url>
+                    <path>/</path>
+                </configuration>
+            </plugin>
         </plugins>
+
     </build>
 
 </project>

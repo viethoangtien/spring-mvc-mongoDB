@@ -7,15 +7,6 @@ public class RoutingTable extends BaseModel {
     private String interfacee;
     private String metric;
 
-    public RoutingTable(String networkDestination, String netmask, String gateway, String interfacee, String metric) {
-        super();
-        this.networkDestination = networkDestination;
-        this.netmask = netmask;
-        this.gateway = gateway;
-        this.interfacee = interfacee;
-        this.metric = metric;
-    }
-
     public String getNetworkDestination() {
         return networkDestination;
     }

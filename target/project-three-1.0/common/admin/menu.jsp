@@ -70,12 +70,13 @@
                         <ul class="treeview-menu">
                             <li><a href="<c:url value="/admin-network-connection"/> "><i class="fa fa-circle-o"></i>
                                 Network Connection</a></li>
-                            <li><a href="#"><i class="fa fa-circle-o"></i> Listening Port</a></li>
-                            <li><a href="#"><i class="fa fa-circle-o"></i> Data Port</a></li>
-                            <li><a href="#"><i class="fa fa-circle-o"></i> Routing table</a></li>
+                            <li><a href="<c:url value="/admin-open-port"/> "><i class="fa fa-circle-o"></i> Open Port</a></li>
+                            <li><a href="<c:url value="/admin-network-status"/> "><i class="fa fa-circle-o"></i> Network Status</a></li>
+                            <li><a href="<c:url value="/admin-establish-connection"/> "><i class="fa fa-circle-o"></i> Establish Connection</a></li>
+                            <li><a href="<c:url value="/admin-routing-table"/> "><i class="fa fa-circle-o"></i> Routing table</a></li>
                         </ul>
                     </li>
-                    <li><a href="#"><i class="fa fa-circle-o"></i> Process</a></li>
+                    <li><a href="<c:url value="/admin-process-list"/> "><i class="fa fa-circle-o"></i> Process</a></li>
                     <li><a href="#"><i class="fa fa-circle-o"></i> User Logon</a></li>
                     <li><a href="#"><i class="fa fa-circle-o"></i> Clipboard Content</a></li>
                     <li><a href="#"><i class="fa fa-circle-o"></i> Open File</a></li>

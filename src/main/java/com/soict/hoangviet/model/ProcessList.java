@@ -10,18 +10,6 @@ public class ProcessList extends BaseModel {
     private String cpuTime;
     private String elapsedTime;
 
-    public ProcessList(String name, String pid, String pri, String thd, String hnd, String priv, String cpuTime,
-                       String elapsedTime) {
-        this.name = name;
-        this.pid = pid;
-        this.pri = pri;
-        this.thd = thd;
-        this.hnd = hnd;
-        this.priv = priv;
-        this.cpuTime = cpuTime;
-        this.elapsedTime = elapsedTime;
-    }
-
     public String getName() {
         return name;
     }

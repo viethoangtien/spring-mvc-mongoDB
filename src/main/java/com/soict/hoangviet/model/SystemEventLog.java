@@ -1,7 +1,7 @@
 package com.soict.hoangviet.model;
 
 public class SystemEventLog {
-	private String id;
+	private String _id;
 	private String name;
 	private String type;
 	private String computer;
@@ -21,11 +21,11 @@ public class SystemEventLog {
 	public void setComputerName(String computerName) {
 		this.computerName = computerName;
 	}
-	public String getId() {
-		return id;
+	public String get_id() {
+		return _id;
 	}
-	public void setId(String id) {
-		this.id = id;
+	public void set_id(String id) {
+		this._id = id;
 	}
 	public String getName() {
 		return name;

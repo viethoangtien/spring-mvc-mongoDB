@@ -59,7 +59,7 @@
                                                 <span class="lbl"></span>
                                             </label>
                                         </td>
-                                        <td class="hidden-480">${item.id}</td>
+                                        <td class="hidden-480">${item._id}</td>
                                         <td class="hidden-480">${item.name}</td>
                                         <td class="hidden-480">${item.type}</td>
 

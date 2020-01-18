@@ -7,15 +7,6 @@ public class OpenPort extends BaseModel {
     private String state;
     private String pid;
 
-    public OpenPort(String proto, String localAddress, String foreignAddress, String state, String pid) {
-        super();
-        this.proto = proto;
-        this.localAddress = localAddress;
-        this.foreignAddress = foreignAddress;
-        this.state = state;
-        this.pid = pid;
-    }
-
     public String getProto() {
         return proto;
     }

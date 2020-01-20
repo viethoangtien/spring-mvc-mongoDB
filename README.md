@@ -8,3 +8,9 @@
 | Quản trị CSDL | `v3.6` | MongoDB | https://www.mongodb.com/download-center |
 | Công cụ giả lập máy chủ | `v9.0.6` | Tomcat Server | https://drive.google.com/file/d/1z5u4igaH1uIapUW-kHCqfL2MRfwthQ-N/view |
 | Cài đặt Aphache Maven | `v3.6.0` | Apache Maven | http://maven.apache.org/download.cgi |
+
+# Công cụ và phần mềm hỗ trợ triển khai hệ thống
+| Mục đích | Phiên bản | Ghi chú | Documentation Link |
+| --- | --- | --- | --- |
+| SSH Server  | `v8.38` | Bitvise SSH Client | https://www.bitvise.com/ssh-client-download |
+| Clone data | `v2.19.2` | Git | https://git-scm.com/downloads |

@@ -16,4 +16,4 @@
 | Clone data | `v2.19.2` | Git | https://git-scm.com/downloads |
 
 ## Documentation Site
-Hướng dẫn cài đặt biên dịch chi tiết và triển khai hệ thống trên server, https://drive.google.com/drive/u/0/folders/1es31mKsDTgA_f1xbSnTc_aBVWp3uIJ-_
+Hướng dẫn cài đặt biên dịch chi tiết và triển khai hệ thống trên server, https://doc-0c-0g-docs.googleusercontent.com/docs/securesc/febr2c4naphse110t71v8uofr1s0fed4/2vkgvk72b6rc70q8f4umcmcbrlj99of6/1579507200000/14064015465510127606/14064015465510127606/1GIKcHDxAwCS523jqkO-78G0pbcN11TZK?e=download&authuser=0&nonce=78j60ovgjinbm&user=14064015465510127606&hash=p14tfjnj4dv82amj8q77tp5796joaq5m
